@@ -41,9 +41,9 @@ This guide will walk you through deploying the Glodinas Flex Work job platform t
    Click "Environment Variables" and add the following:
 
    ```
-   DATABASE_URL=postgresql://neondb_owner:npg_XjPmI9ORgC7N@ep-aged-frog-aeh4dovr-pooler.c-2.us-east-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require
+   DATABASE_URL=your_neon_postgres_connection_string_here
    
-   JWT_SECRET=glodinas-flex-work-super-secret-jwt-key-2024-production-ready
+   JWT_SECRET=your_super_secret_jwt_key_here
    
    JWT_EXPIRES_IN=7d
    
